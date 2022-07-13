@@ -1,0 +1,62 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    background-color:#f5f5f3;
+}
+
+.wrapper{
+    height:100vh;
+    padding: 50px 0;
+    background-color: #f5f5f3;
+    width: 80%;  
+    margin: 0 auto; 
+}
+
+.form{
+    margin:30px auto 40px;
+    padding:25px 20px;
+    background-color: #dededa;
+    display:flex;
+}
+
+.input_text{
+    width: 100%;
+    height: 40px;
+    border-style: none;
+}
+
+
+
+.submit_btn{
+    width: 80px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #3AC0FB;
+    color: #fff;
+    border: none;
+}
+
+.message-area{
+    background-color: #fff;
+    padding: 30px 5px;
+    overflow:scroll;
+    height: 700px;
+}
+
+.post{
+  border: 1px solid #efefec;
+  width: 95%;
+  height: 42px;
+  margin: 15px auto 15px;
+  background-color: #f9f9f7;
+}
+
+.message{
+    width: 300px;
+    height: 120px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}

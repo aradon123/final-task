@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <%= form_with url: "/posts", method: :post, local: true do |f| %>
+    <div class="form">
+          <%= f.text_field :memo, class: "input_text" %>
+          <%= f.submit "POST", class: "submit_btn" %>
+    </div>
+    <% end %> 
+    <div class="message-area">
+    <% @posts.each do |post| %>
+        <div class="post">
+        <%= post.memo %>
+        </div>
+    <% end %>
+    </div>
+</div>
